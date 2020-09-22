@@ -1,255 +1,5 @@
 
 
-alert("Welcome to MENZ STYLEZ");
-
-document.querySelector("#toggling").addEventListener("click", function () {
-
-	document.querySelector(".menu").classList.toggle("showMenu");
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.querySelector(".searchBtn").addEventListener("click", function () {
-
-	var information = document.querySelector(".inputClass").value;
-
-
-
-
-
-	switch (information) {
-
-		case "HAIRDRYERS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='Hairdryer.html'>HAIRDRYERS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-
-		case "Hairdryer ":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='Hairdryer.html'>Hairdryer</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "GEL":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='GEL.html'>GEL</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "SHAMPOO":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='SHAMPOO.html'>SHAMPOO</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "CONDITIONER":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='SHAMPOO.html'>CONDITIONER</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "SUNGLASSES":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='SUNGLASSES.html'>SUNGLASSES </a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "FACEWASH":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='FACEWASH.html'>FACEWASH </a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "BEARD OILS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='BEARD.html'>BEARD OILS </a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "AFTERSHAVES":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='AFTERSHAVES.html'>AFTERSHAVES</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "hairdryer":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='Hairdryer.html'>Hairdryer</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "TRIMMERS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='TRIMMERS.html'>TRIMMERS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "REZORS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='REZORS.html'>REZORS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "CASUAL SHIRTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='CASUAL SHIRTS.html'>CASUAL SHIRTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "CASUAL SHIRTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='CASUAL.html'>CASUAL SHIRTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "FORMAL SHIRTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='FORMAL.html'>FORMAL SHIRTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "TIES":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='TIES.html'>TIES</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "T-SHIRTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='T-SHIRTS.html'>T-SHIRTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "JACKETS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='JACKETS.html'>JACKETS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "BLAZERS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='BLAZERS.html'>BLAZERS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "HOODIES":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='HOODIES.html'>HOODIES</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "WRIST WATCH":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='TIME.html'>WRIST WATCH</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "WRIST BANDS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='BANDS.html'>WRIST BANDS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "JEANS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='JEANS.html'>JEANS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "TROUSERS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='TROUSERS.html'>TROUSERS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "UNDER GARMENTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='UNDER.html'>UNDER GARMENTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "BELTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='BELTS.html'>BELTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "WALLETS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='WALLETS.html'>WALLETS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-		case "DEODORENTS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='DEODORENTS.html'>DEODORENTS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-
-
-		case "SOCKS":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='SOCKS.html'>SOCKS</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-
-
-		case "SHOES":
-			document.querySelector(".searchBtn").innerHTML = "<a href ='SHOES.html'>SHOES</a>"
-			document.querySelector(".inputClass").value = '';
-			break;
-
-
-
-
-		case "":
-			console.log("once clicked");
-			break;
-
-
-
-		default:
-			alert("Sorry, we dont't have the product or you've a wrong spelling")
-	}
-
-
-
-
-
-
-
-
-
-
-
-	/*
-		document.querySelector(".searchBtn").innerHTML = "<a href='https://www."+information+".com'> Search </a>";
-		
-		//"<a href = 'information."+ "html'> Search </a>";
-		// "<a href='https://www."+information+".com'> Search </a>";
-		//
-		// "<a href='information +'.html'> Search </a>";
-	*/
-
-
-
-});
-
-
-// "<a href = 'information."+ ".html'>"+information+"</a>";
-
-
-/* $uservar = $_REQUEST['username'];
-echo "<a href='https://www.".$uservar.".com'>";
-echo "<b>".$_REQUEST['username'];
-echo "</a></b>"; */
-
-
-
-// if else 
-
-
-
-let carts = document.querySelectorAll(".cart");
-
-
-
-
-
-//products has been taken here...
-
 
 let products = [
 	{
@@ -397,7 +147,7 @@ let products = [
 		inCart: 0
 	},
 
-	//2
+//2
 
 
 
@@ -550,7 +300,7 @@ let products = [
 
 
 
-	//3
+//3
 
 
 	{
@@ -701,7 +451,7 @@ let products = [
 
 
 
-	//4
+//4
 
 
 	{
@@ -852,7 +602,7 @@ let products = [
 
 
 
-	//5
+//5
 
 
 	{
@@ -1002,7 +752,7 @@ let products = [
 
 
 
-	//6
+//6
 
 
 
@@ -1153,7 +903,7 @@ let products = [
 
 
 
-	//7
+//7
 
 
 
@@ -1304,7 +1054,7 @@ let products = [
 
 
 
-	//8
+//8
 
 
 
@@ -1455,7 +1205,7 @@ let products = [
 
 
 
-	//9
+//9
 
 
 
@@ -1606,7 +1356,7 @@ let products = [
 
 
 
-	//10
+//10
 
 
 
@@ -1756,7 +1506,7 @@ let products = [
 	},
 
 
-	//11
+//11
 
 
 
@@ -1909,7 +1659,7 @@ let products = [
 
 
 
-	//12
+//12
 
 
 	{
@@ -2059,7 +1809,7 @@ let products = [
 
 
 
-	//13
+//13
 
 
 
@@ -2211,7 +1961,7 @@ let products = [
 
 
 
-	//14
+//14
 
 
 	{
@@ -2361,7 +2111,7 @@ let products = [
 
 
 
-	//15
+//15
 
 
 
@@ -2512,7 +2262,7 @@ let products = [
 
 
 
-	//16
+//16
 
 
 	{
@@ -2662,7 +2412,7 @@ let products = [
 
 
 
-	//17
+//17
 
 
 	{
@@ -2812,7 +2562,7 @@ let products = [
 
 
 
-	//18
+//18
 
 
 	{
@@ -2963,7 +2713,7 @@ let products = [
 
 
 
-	//19
+//19
 
 
 	{
@@ -3113,7 +2863,7 @@ let products = [
 
 
 
-	//20
+//20
 
 
 
@@ -3266,7 +3016,7 @@ let products = [
 
 
 
-	//21
+//21
 
 	{
 		name: 'u1',
@@ -3417,7 +3167,7 @@ let products = [
 
 
 
-	//22
+//22
 
 	{
 		name: 'v1',
@@ -3567,7 +3317,7 @@ let products = [
 
 
 
-	//23
+//23
 
 
 	{
@@ -3718,7 +3468,7 @@ let products = [
 
 
 
-	//24
+//24
 
 
 	{
@@ -3869,7 +3619,7 @@ let products = [
 
 
 
-	//25
+//25
 
 
 	{
@@ -4021,7 +3771,7 @@ let products = [
 
 
 
-	//26
+//26
 
 	{
 		name: 'z1',
@@ -4169,89 +3919,3 @@ let products = [
 	},
 
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-for (let i = 0; i < carts.length; i++) {
-	carts[i].addEventListener("click", () => {
-		curtNumbers(products[i]);
-	})
-}
-
-
-
-function onLoadcurtNumbers() {
-	let productNumbers = localStorage.getItem("curtNumbers");
-
-
-	if (productNumbers) {
-		document.querySelector(".addcart span").textContent = productNumbers;
-
-	}
-}
-
-
-
-
-
-
-
-function curtNumbers(product) {
-	//console.log("the product is clicked is : ", product);
-	let productNumbers = localStorage.getItem("curtNumbers");
-
-	productNumbers = parseInt(productNumbers);
-
-	if (productNumbers) {
-		localStorage.setItem("curtNumbers", productNumbers + 1);
-		document.querySelector(".addcart span").textContent = productNumbers + 1;
-	}
-	else {
-		localStorage.setItem("curtNumbers", 1);
-		document.querySelector(".addcart span").textContent = 1;
-	}
-	setItems(product);
-}
-
-//setItems(product);
-
-
-function setItems(product) {
-
-	let cartItems = localStorage.getItem("productsInCart");
-	cartItems = JSON.parse(cartItems);
-
-	if (cartItems != null) {
-
-		if (cartItems[product.tag] == undefined) {
-			cartItems = {
-				...cartItems,
-				[product.tag]: product
-			}
-
-		}
-		cartItems[product.tag].inCart += 1;
-
-	} else {
-
-		product.inCart = 1;
-		cartItems = {
-			[product.tag]: product
-
-		}
-	}
-
-	localStorage.setItem("productsInCart", JSON.stringify(cartItems));
-
-}
-onLoadcurtNumbers();

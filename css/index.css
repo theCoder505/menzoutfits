@@ -3,6 +3,10 @@
     padding:0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color: black;
 }
 h3, h5{
     font-size: 16px;
@@ -48,19 +52,26 @@ h3, h5{
     font-style: italic;
     color: rgb(17, 243, 17);
 }
-.searchbar {
-    border: 2px solid blue;
-    border-radius: 50px;
+
+
+
+
+
+     
+.searching button {
+    margin-left: -5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
-.searchbar input{
-    padding:  5px 30px;
-    border: transparent;
-    border-radius: 50px 0px 100px 50px;
+.searching input{
+    padding: 5px;
 }
-.searchbar i{
-    padding: 0px 20px;
-    font-size: large;
-}
+
+
+
+
+
+
 
 #bars i{
     font-size: 30px;
@@ -72,10 +83,10 @@ h3, h5{
     margin-top: 75px;
     padding-left: 10px;
     width: 200px;
-    background-color: rgb(26, 23, 23);
+    background-color: rgba(26, 23, 23, 0.904);
     box-sizing: border-box;
     float: right;
-    height: 80.5vh;
+    height: 100vh;
     overflow-y: scroll;
 }
 
@@ -94,6 +105,7 @@ h3, h5{
     background-image: linear-gradient(to right, black, rgb(245, 10, 10), black,  rgb(245, 10, 10), black);
     font-weight: bold;
     padding: 10px 0;
+    cursor: pointer;
 }
 .itemsInBars hr{
     background-color: white;
@@ -102,7 +114,7 @@ h3, h5{
 
 /*carousel now*/
 .carouselcontainer{
-    margin-top: 74px;
+    margin-top: 64px;
 }
 .carousel-item img{
     width: 100%;
@@ -422,7 +434,7 @@ height: 30px;
 
 
 .paymentProcedure{
-    background-color: thistle;
+    background-color: #dbdacf;
     padding: 40px;
 }
 .paymentProcedure img{
@@ -435,7 +447,81 @@ height: 30px;
 footer{
     background-color: black;
     padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
 
+
+
+
+.bottomtopnav ul li {
+    padding: 4px 8px;
+    margin-top: 6px;
+    margin-right: 2px;
+    background-image: linear-gradient(to right, #122212, #686886);
+}
+
+
+
+.bottomtopnav ul li:hover {
+    padding: 4px 8px;
+    margin-top: 6px;
+    margin-right: 2px;
+    background-color:  #a5a5a5;
+    cursor: pointer;
+    background-image: linear-gradient(to right,  green, #312b2b);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .bottomtopnav {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #111111ad;
+        color: white;
+        text-align: center;
+    }
+    .searching button {
+        margin-left: -5px;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+    .searching input {
+        padding: 0px;
+    }
+    footer{
+        background-color: black;
+        padding: 10px;
+        left: 0;
+        bottom: 38px;
+        position: relative;
+        width: 100%;
+    }
+    .paymentProcedure img {
+        display: inline-block;
+        padding: 10px;
+        width: 70px;
+        height: 50px;
+    }
+    .showMenu {
+        margin-top: -88vh;
+        color: red;
+        z-index: 20;
+        float: right;
+        display: block;
+        position: fixed;
+    }
+ 
+  }
